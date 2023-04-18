@@ -1,0 +1,15 @@
+
+opython:S1542"WRename function "decrementAttempts" to match the regular expression ^[a-z_][a-z0-9_]*$.(©˜Ê©
+qpython:S117#"URename this parameter "userGuess" to match the regular expression ^[_a-z][a-z0-9_]*$.(òäÃÖüÿÿÿÿ
+ppython:S1542#"SRename function "gameOverCheck" to match the regular expression ^[a-z_][a-z0-9_]*$.(òäÃÖüÿÿÿÿ
+]python:S3457*"EAdd replacement fields or use a normal string instead of an f-string.(¬Á²ª
+gpython:S1542/"ORename function "playAgain" to match the regular expression ^[a-z_][a-z0-9_]*$.(°ô”›
+]python:S34571"EAdd replacement fields or use a normal string instead of an f-string.(Ç¿†ì
+bpython:S34576"EAdd replacement fields or use a normal string instead of an f-string.(åÕÛÉÿÿÿÿÿ
+qpython:S1179"URename this parameter "userGuess" to match the regular expression ^[_a-z][a-z0-9_]*$.(¬é¨®ÿÿÿÿÿ
+mpython:S15429"PRename function "guessCheck" to match the regular expression ^[a-z_][a-z0-9_]*$.(¬é¨®ÿÿÿÿÿ
+}python:S117L"aRename this local variable "chosenDifficulty" to match the regular expression ^[_a-z][a-z0-9_]*$.(‘Ì¯¶ûÿÿÿÿ
+gpython:S1542F"ORename function "gameSetup" to match the regular expression ^[a-z_][a-z0-9_]*$.(íÈß
+]python:S3457K"EAdd replacement fields or use a normal string instead of an f-string.(èø™ó
+bpython:S3457L"EAdd replacement fields or use a normal string instead of an f-string.(‘Ì¯¶ûÿÿÿÿ
+bpython:S3457]"EAdd replacement fields or use a normal string instead of an f-string.(©²‚¢üÿÿÿÿ

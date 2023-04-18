@@ -1,0 +1,5 @@
+
+rpython:S117"[Rename this local variable "turtleName" to match the regular expression ^[_a-z][a-z0-9_]*$.(­å»Á
+spython:S117"WRename this local variable "xPoint" to match the regular expression ^[_a-z][a-z0-9_]*$.(Šê—€ýÿÿÿÿ
+spython:S117"WRename this local variable "yPoint" to match the regular expression ^[_a-z][a-z0-9_]*$.(úî¼¼ûÿÿÿÿ
+ppython:S1542"SRename function "createTurtles" to match the regular expression ^[a-z_][a-z0-9_]*$.(·ÒÞÑÿÿÿÿÿ

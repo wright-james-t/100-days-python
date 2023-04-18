@@ -1,0 +1,13 @@
+Draw Turtle
+
+Set up turtle controls, only moving up, no left/back/right
+
+Randomly generate different colored cars at right side of screen
+
+Have cars move left at a constant speed
+
+When the turtle reaches the top of the screen, reset turtle position, increase "level", and increase car speed
+
+Detect turtle car collision
+
+Detect turtle "win" collision

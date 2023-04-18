@@ -1,0 +1,19 @@
+Set up game board
+    Define board size
+    Draw vertical line down middle of screen
+    Draw 2 paddles, one on the left, one on the right, same size
+    Draw ball in the middle
+
+Set up scoreboard
+    "Left" player score
+    "Right" player score
+    Function for incrementing score based on ball position
+
+Set up controls
+    "Left" player controls (W A S D)
+    "Right" player controls (Up Down Left Right)
+
+Ball movement
+    Determine how to have the ball move based on how it hits the paddle
+
+game board set up, ball physics, and controls will be in 'main.py', scoreboard in 'scoreboard.py',

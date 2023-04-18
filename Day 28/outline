@@ -1,0 +1,21 @@
+Pomodoro project:
+
+Window:
+    init window
+    define size
+    define title
+
+Tkinter:
+    Start button:
+        when clicked, starts timer counting down from 25:00 to 0
+
+    Reset button:
+        reset "pomodoros" (25 minute work sessions)
+
+    Timer:
+        25:00 timer, when reaching 0, focus on pomodoro window, add checkmark to signify one "round" completed
+         and start new timer counting down from 5:00
+
+
+
+

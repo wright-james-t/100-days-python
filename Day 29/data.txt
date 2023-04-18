@@ -1,0 +1,5 @@
+amazon | fake-email@gmail.com | test
+youtube | fake-email@gmail.com | test
+amazon | fake-email@gmail.com | test
+amazon | fake-email@gmail.com | +(7)I1vy2KB3DSiG
+test | fake-email@gmail.com | SN7xBk4kP$Qn$9
