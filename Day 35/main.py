@@ -1,14 +1,23 @@
 import requests
+from twilio.rest import Client
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-API_KEY = "$my api key"
-LAT = '30.079729'
-LONG = '-95.417686'
+LAT = '30.079941'
+LONG = '-95.417160'
 BASE_URL = 'https://api.openweathermap.org/data/2.8/onecall?'
+ACCOUNT_SID = os.environ['TWILIO_ACCOUNT_SID']
+AUTH_TOKEN = os.environ['TWILIO_AUTH_TOKEN']
+TWILIO_NUMBER = os.environ['TWILIO_NUMBER']
+MY_NUMBER = os.environ['MY_NUMBER']
+WEATHER_API_KEY = os.environ['WEATHER_API_KEY']
+
 
 parameters = {
     "lat": LAT,
     "lon": LONG,
-    "appid": API_KEY,
+    "appid": WEATHER_API_KEY,
     "exclude": 'current,minutely,daily'
 }
 
@@ -24,8 +33,20 @@ sliced_list = [sliced_list[num]["weather"][0]["id"] for num in range(12)]
 will_rain = False
 
 for condition_code in sliced_list:
+    print(condition_code)
     if condition_code < 700:
         will_rain = True
 
 if will_rain:
-    print("Bring an umbrella")
+    account_sid = os.environ['TWILIO_ACCOUNT_SID']
+    auth_token = os.environ['TWILIO_AUTH_TOKEN']
+    client = Client(account_sid, auth_token)
+
+    message = client.messages \
+        .create(
+            body="It's going to rain, bring an umbrella ☔",
+            from_=TWILIO_NUMBER,
+            to=MY_NUMBER
+    )
+
+    print(message.status)
