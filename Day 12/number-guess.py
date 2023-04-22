@@ -72,8 +72,8 @@ def gameSetup():
     global randomNumber
     global gameOver
     randomNumber = random.choice(range(1, 100))
-    print(f"Welcome to the number guessing game!\nI'm thinking of a number between 1 and 100.\n")
-    chosenDifficulty = input(f"What difficulty would you like to play on? Type 'easy' or 'hard': ")
+    print("Welcome to the number guessing game!\nI'm thinking of a number between 1 and 100.\n")
+    chosenDifficulty = input("What difficulty would you like to play on? Type 'easy' or 'hard': ")
     if chosenDifficulty == 'easy':
         attempts = easyAttempts
     elif chosenDifficulty == 'hard':
@@ -90,4 +90,5 @@ gameSetup()
 # The game is afoot
 while not gameOver:
     print(f"You have {attempts} attempts remaining.\n")
-    guessCheck(int(input(f"Make a guess: ")))
+    guessCheck(int(input("Make a guess: ")))
+

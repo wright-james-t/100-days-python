@@ -86,7 +86,7 @@ gameSetup()
 while not gameOver:
     print(f"Your current hand:\n{playerHand}\nCurrent total: {playerHandValue}\n\n")
     print(f"Dealer Hand:\n{dealerHand}\nCurrent Total: {dealerHandValue}\n\n")
-    userAnswer = input(f"Would you like to hit? [y,n]\n")
+    userAnswer = input("Would you like to hit? [y,n]\n")
     if userAnswer == 'y' or userAnswer == 'Y':
         drawCard(playerHand)
         updatePlayerHandValue()
@@ -98,5 +98,5 @@ while not gameOver:
         dealerLogic()
         gameOver = True
     else:
-        print(f"*Breaks your hands for being an idiot")
+        print("That is not a valid input")
         gameOver = True

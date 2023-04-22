@@ -89,7 +89,7 @@ def processTransaction(moneyGiven, drinkCost, drinkChoice):
         print(
             f"Here is your {drinkChoice} ☕. Your change is {changeOwed}. Thank you!")
     else:
-        print("Cheapass bitches don't get coffee.")
+        print("Not enough money inserted.")
 
 
 def resourceCheck(ingredient_order):

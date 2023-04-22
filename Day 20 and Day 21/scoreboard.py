@@ -35,11 +35,3 @@ class Scoreboard(Turtle):
         self.write(f"Score: {self.score}", align="center", font=("Comic Sans", 15, "normal"))
         self.goto(HIGH_SCORE_POSITION)
         self.write(f"High Score: {self.high_score}", align="center", font=("Comic Sans", 15, "normal"))
-
-
-    # def game_over(self):
-    #     self.clear()
-    #     self.goto(0,0)
-    #     self.write(f"Game Over!", align="center", font=("Comic Sans", 25, "normal"))
-    #     self.goto(0,-30)
-    #     self.write(f"Your final score was: {self.score}", align="center", font=("Comic Sans", 25, "normal"))

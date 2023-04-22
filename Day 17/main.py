@@ -4,10 +4,6 @@ from quiz_brain import QuizBrain
 
 question_bank =[]
 
-""" for i in range(len(question_data)):
-    question_bank.append(Question(question_data[i]['text'], question_data[i]['answer'])) """
-
-
 for question in question_data:
     question_text = question["question"]
     question_answer = question["correct_answer"]

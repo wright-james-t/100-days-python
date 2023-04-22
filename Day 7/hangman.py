@@ -89,5 +89,5 @@ while not gameOver:
         if check != '_':
             remainingLetters -= 1
             if remainingLetters == 0:
-                print(f"You win!")
+                print("You win!")
                 gameOver = True

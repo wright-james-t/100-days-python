@@ -68,7 +68,7 @@ def thugAim():
             if correctAnswer == 'B':
                 keepA = True
         else:
-            print(f"Nah, you suck. Final score is {score}.")
+            print(f"Game over!. Final score is {score}.")
             playAgain = ""
             while playAgain not in ['y', 'n', 'Y', 'N']:
                 playAgain = input("Do you want to play again? [y,n]: ")

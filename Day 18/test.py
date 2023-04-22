@@ -16,13 +16,10 @@ def randomColor():
 
 while sideCount < 11:
     angleDegree = 360 / sideCount
-#    penColor = 255, 255, 255
     for i in range(sideCount):
         donatello.forward(100)
         donatello.right(angleDegree)
     sideCount += 1
-#    donatello.pencolor(penColor)
 
-#screen = Turtle().Screen()
 screen.exitonclick()
 
