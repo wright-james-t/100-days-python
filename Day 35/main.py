@@ -38,9 +38,7 @@ for condition_code in sliced_list:
         will_rain = True
 
 if will_rain:
-    account_sid = os.environ['TWILIO_ACCOUNT_SID']
-    auth_token = os.environ['TWILIO_AUTH_TOKEN']
-    client = Client(account_sid, auth_token)
+    client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
     message = client.messages \
         .create(
