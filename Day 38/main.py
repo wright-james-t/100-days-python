@@ -45,6 +45,10 @@ sheetyBody = {
     }
 }
 
-response = requests.post(url=SHEETY_URL, json=sheetyBody)
+sheetyHeader = {
+    "Authorization": f"Bearer {SHEETY_API_TOKEN}"
+}
+
+response = requests.post(url=SHEETY_URL, json=sheetyBody, headers=sheetyHeader)
 print("response.status_code =", response.status_code)
 print("response.text =", response.text)
