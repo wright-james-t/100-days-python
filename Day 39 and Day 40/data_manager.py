@@ -39,9 +39,9 @@ class DataManager:
         for city in self.city_list:
             sheety_body = {
                 'price': {
-                    'city': city,
-                    'iataCode': self.city_codes[city],
-                    'lowestPrice': 0
+                    'cuntFuckAss': 'cunt fuck ass' 
+                    'IATA Code': '',
+                    'Lowest Price': ''
                 }
             }
         return sheety_body
