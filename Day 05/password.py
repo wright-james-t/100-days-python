@@ -30,24 +30,3 @@ print(f"Base: {password}")
 password = ''.join(random.sample(password, len(password)))
 
 print(f"Scrambled: {password}")
-
-
-def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
-
-
-num = 0
-while at_goal() == False:
-    if wall_on_right() == True and front_is_clear() == True:
-        move()
-    elif wall_on_right() == True and front_is_clear() == False:
-        turn_left()
-    elif right_is_clear() == True:
-        turn_right()
-        move()
-        num += 1
-        if num >= 4:
-            move()
-            num = 0
