@@ -7,7 +7,7 @@ MY_URL = 'https://www.python.org/'
 
 # Instantiating Selenium Stuff
 driver = webdriver.Chrome()
-driver.get("https://www.python.org/")
+driver.get(MY_URL)
 
 # Getting the HTML for the events
 upcoming_event_times = driver.find_elements(By.CSS_SELECTOR, '.event-widget .menu time')
