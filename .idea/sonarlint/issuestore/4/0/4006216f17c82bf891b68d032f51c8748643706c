@@ -1,11 +1,0 @@
-
-vpython:S117"ZRename this local variable "drawnCard" to match the regular expression ^[_a-z][a-z0-9_]*$.(²À™Ùûÿÿÿÿ
-fpython:S1542"NRename function "drawCard" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÚªÌı
-spython:S1542!"[Rename function "updateDealerHandValue" to match the regular expression ^[a-z_][a-z0-9_]*$.(Çàà
-spython:S1542-"[Rename function "updatePlayerHandValue" to match the regular expression ^[a-z_][a-z0-9_]*$.(ŞÙİõ
-npython:S15429"QRename function "dealerLogic" to match the regular expression ^[a-z_][a-z0-9_]*$.(ûê·áşÿÿÿÿ
-\python:S3457B"EAdd replacement fields or use a normal string instead of an f-string.(Ú©Ås
-qpython:S117G"ZRename this local variable "gameStart" to match the regular expression ^[_a-z][a-z0-9_]*$.(™À³¶
-gpython:S1542F"ORename function "gameSetup" to match the regular expression ^[a-z_][a-z0-9_]*$.(íÈß
-]python:S3457Y"EAdd replacement fields or use a normal string instead of an f-string.(³é§š
-]python:S3457e"EAdd replacement fields or use a normal string instead of an f-string.(’§¹Ó
